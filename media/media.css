@@ -1,0 +1,39 @@
+@import './base.less';
+
+.wrapper{
+ width: 100%;
+ 
+}
+.wrapper ul{
+  display: flex; 
+  flex-wrap: wrap;
+  /* flex:  */
+}
+.wrapper ul li{
+  display: inline-block;
+  width:20%;
+  flex-grow: 1;
+}
+img{
+  width: 100%;
+}
+@media screen and (max-width:1000px) {
+  .wrapper ul li{
+    width:25%
+  }
+}
+@media screen and (max-width:800px) {
+  .wrapper ul li{
+    width:33.33%
+  }
+}
+@media screen and (max-width:600px) {
+  .wrapper ul li{
+    width:50%
+  }
+}
+@media screen and (max-width:400px) {
+  .wrapper ul li{
+    width:100%
+  }
+}

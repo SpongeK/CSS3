@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav{
+    height: 50px;
+    width: 500px;
+    border-radius: 5px;
+    background: rgba(248, 193, 11, 0.9);
+    margin: 30px auto;
+    box-shadow: 6px 8px 18px #aaa;
+}
+
+.nav ul{
+    height: 50px;
+    line-height: 50px;
+    margin-left: 20px;;
+}
+
+@font-face{
+    font-family: "pooch";
+    src:url('../Pooch Doo.otf') ,
+    url('../Pooch Doo.otf') format('embedded-opentype'),
+    url('../Pooch Doo.otf') format('otf'),
+    url('../Pooch Doo.otf') format('truetype')
+}
+
+.nav li{
+    float: left;
+    margin:0 14px; 
+    color: #fff;
+    text-shadow:5px 4px 4px #bbb;
+    font-family: 'pooch';
+}
+
+.nav li::after{
+    content: "";
+    display: inline-block;
+    position: absolute;
+    height: 20px;
+    margin: 15px 14px;
+    border-left:1px dotted #fff; 
+}
+
